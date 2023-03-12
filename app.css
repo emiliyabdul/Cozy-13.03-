@@ -71,6 +71,13 @@ nav>ul>li{
     font-size: 14px;
     line-height: 16px;
     color: var(--spaceCadet);
+    cursor: pointer;
+    transition: .2s;
+}
+
+nav>ul>li:hover{
+    color: var(--verdigris);
+    border-bottom: 1px solid var(--verdigris);
 }
 
 .right-c-nav{
@@ -89,6 +96,7 @@ nav>ul>li{
 .right-c-nav>img{
     max-width:24px ;
     max-height:24px ;
+    cursor: pointer;
 }
 
 
@@ -119,6 +127,7 @@ nav>ul>li{
     max-width: 24px;
     max-height: 24px;
     margin-bottom: 34px;
+    cursor: pointer;
 }
 
 .text-c-left{
@@ -205,22 +214,45 @@ nav>ul>li{
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
 }
 
 #color1{
     background-color: #C1BDB3;
+    border:2px solid #C1BDB3;
+}
+
+#color1:hover{
+    border:2px solid #9b978e;
 }
 
 #color2{
     background-color: #58737D;
+    border:2px solid #58737D;
+}
+
+#color2:hover{
+    border:2px solid #324247;
 }
 
 #color3{
     background-color: #545454;
+    border:2px solid #545454;
+}
+
+#color3:hover{
+    border:2px solid rgb(53, 52, 48);
 }
 
 #color4{
     background-color: #CBA5A5;
+    border:2px solid #CBA5A5;
+
+}
+
+#color4:hover{
+    border:2px solid #8b6f6f;
 }
 
 .buttons-c-product{
@@ -243,6 +275,7 @@ nav>ul>li{
 .count>img{
     max-width:20px ;
     max-height: 20px;
+    cursor: pointer;
 }
 
 .count>h2{
@@ -262,7 +295,14 @@ nav>ul>li{
     background: var(--verdigris);
     border-radius: 4px;
     letter-spacing: 0.1px;
+    cursor: pointer;
+    transition: .3s;
+}
 
+.buttons-c-product:hover>button{
+    background: var(--white);
+    color: var(--verdigris);
+    border: 1px solid var(--verdigris);
 }
 
 .middle2-c-left>h5{
@@ -290,6 +330,7 @@ nav>ul>li{
 .add-c-left>img{
     max-width:20px ;
     max-height: 20px;
+    cursor: pointer;
 }
 
 .add-c-left>h3{
@@ -338,6 +379,7 @@ nav>ul>li{
 .img-c1-right>img{
     max-width: 24px;
     max-height: 24px;
+    cursor: pointer;
 }
 
 #product{
@@ -359,6 +401,7 @@ nav>ul>li{
 .img-c2-right>img{
     max-width:104px ;
     max-height: 104px;
+    cursor: pointer;
 }
 
 
@@ -531,7 +574,7 @@ nav>ul>li{
     gap: 32px;
     border: 1px solid var(--frenchGrey);
     border-radius: 2px;
-    margin-right: 80px;
+    margin-right: 50px;
     /* position: sticky; */
     background-color: var(--white);
 
@@ -595,6 +638,11 @@ nav>ul>li{
     justify-content: space-between;
     border: 1px solid var(--frenchGrey);
     border-radius: 2px;
+    transition: .3s;
+}
+
+.order .input:hover{
+    border: 1px solid var(--verdigris);
 }
 
 .order .input>input{
@@ -610,14 +658,23 @@ nav>ul>li{
 }
 
 .order button{
-    padding: 16px 78px;
+    padding: 15px 77px;
     background: var(--verdigris);
     border-radius: 4px;
+    border: 1px solid var(--verdigris);
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.1px;
     color: var(--white);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.order button:hover{
+    background: var(--white);
+    color: var(--verdigris);
+    border: 1px solid var(--verdigris);
 }
 
 
