@@ -299,7 +299,7 @@ nav>ul>li:hover{
     transition: .3s;
 }
 
-.buttons-c-product:hover>button{
+.buttons-c-product>button:hover{
     background: var(--white);
     color: var(--verdigris);
     border: 1px solid var(--verdigris);
@@ -680,6 +680,7 @@ nav>ul>li:hover{
 
 
 /* ADRESS */
+
 
 
 
