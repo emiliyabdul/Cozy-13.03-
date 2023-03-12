@@ -421,6 +421,8 @@ nav>ul>li:hover{
 }
 
 .left-c-cart{
+    max-width: 820px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -451,7 +453,6 @@ nav>ul>li:hover{
 }
 
 .card{
-    max-width: 820px;
     width: 100%;
     display: flex;
     align-items: start;
@@ -520,6 +521,13 @@ nav>ul>li:hover{
     font-size: 16px;
     line-height: 20px;
     color: var(--imperialRed);
+    border-bottom: 1px solid var(--white);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.bottom-card-mini>h5:hover{
+    border-bottom: 1px solid var(--imperialRed);
 }
 
 .card>h4{
@@ -683,10 +691,16 @@ nav>ul>li:hover{
 
 
 .adress{
-
+    padding: 0 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-bottom: 200px;
 }
 
 .left-c-adress{
+    max-width: 820px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -699,12 +713,197 @@ nav>ul>li:hover{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin-bottom:64px ;
 }
 
 
 .left-c-adress>ul>li{
-    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--coolGrey);
+    cursor: pointer;
 }
+
+.left-c-adress>ul>li:hover{
+    color: var(--spaceCadet);
+}
+
+.left-c-adress>ul>img{
+    max-width:24px ;
+    max-height: 24px;
+}
+
+.cards-c-adress{
+    max-width: 820px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 56px;
+    margin-bottom: 32px;
+}
+
+.card-adress{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.left-card-adress{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 12px;
+}
+
+.left-card-adress>img{
+    max-width:24px ;
+    max-height: 24px;
+    cursor: pointer;
+}
+
+.mini-card-adress{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.top-mini-card-adress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.top-mini-card-adress>h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--spaceCadet);
+}
+
+.top-mini-card-adress>button{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 4px;
+    padding: 7px 8px 5px 8px;
+    color: var(--verdigris);
+    background-color: var(--white);
+    border: 1px solid var(--verdigris);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.top-mini-card-adress>button:hover{
+    color: var(--white);
+    background-color: var(--verdigris);
+    border: 1px solid var(--white);
+}
+
+.mini-card-adress>h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--spaceCadet);
+    margin-bottom: 8px;
+}
+
+.bottom-textc-mini-card-adress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.bottom-textc-mini-card-adress>h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--spaceCadet);
+}
+
+.bottom-textc-mini-card-adress>h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--spaceCadet);
+}
+
+.right-card-adress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.right-card-adress>h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid var(--white);
+    color: var(--spaceCadet);
+    cursor: pointer;
+}
+
+.right-card-adress>h3:hover{
+    border-bottom: 1px solid var(--spaceCadet);
+
+}
+
+.right-card-adress .line5{
+    width: 1px;
+    height: 20px;
+    background-color: var(--frenchGrey);
+}
+
+.right-card-adress>h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid var(--white);
+    color: var(--imperialRed);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right-card-adress>h5:hover{
+    border-bottom: 1px solid var(--imperialRed);
+
+}
+
+.left-c-adress> .line4{
+    width: 100%;
+    height: 1px;
+    background-color: var(--frenchGrey);
+    margin-bottom: 32px;
+}
+
+.bottom-adress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.bottom-adress>img{
+    max-width: 24px;
+    max-height: 24px;
+    cursor: pointer;
+}
+
+.bottom-adress>h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--verdigris);
+}
+
 
 
 
